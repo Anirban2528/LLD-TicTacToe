@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html><head>
+  <title>TicTacToe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+ 
+<body>
+  <div id="newGameModal" style="display: block;">
+    <div class="header">
+      <h2>New Game</h2><h2>
+    </h2></div>
+    <div class="content">
+      <label>Board Size:</label>
+      <input id="boardSize" type="number" min="2" max="5">
+    </div>
+    <div class="footer">
+      <button id="create" onclick="TicTacToe.createGame()">Play</button>
+    </div>
+  </div>
+  <div id="console">
+  </div>
+  <script src="script.js"></script>
+
+</body></html>
